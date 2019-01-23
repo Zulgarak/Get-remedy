@@ -1,0 +1,849 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+img {
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+}
+
+img:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+body {
+  min-width: 320px;
+  margin: auto;
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  position: relative;
+  min-height: 900px;
+  height: 100vh;
+  margin: auto;
+  margin-bottom: 50px;
+  background: url("http://u.cubeupload.com/lospotatos/Layer15minmin.png") no-repeat;
+  -webkit-background-size: cover;
+          background-size: cover;
+  overflow: hidden;
+}
+
+.nav {
+  width: 100%;
+  height: 80px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.logo {
+  float: left;
+  width: 20%;
+  margin-top: 22px;
+  margin-left: 60px;
+  font-size: 29px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.logo a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.navbar {
+  float: right;
+  display: none;
+  width: 50%;
+  overflow: hidden;
+}
+
+.navbar-list {
+  overflow: hidden;
+  margin-top: 37px;
+}
+
+.nav-item {
+  float: left;
+  width: 100px;
+  margin-right: 5px;
+  text-align: center;
+  list-style: none;
+}
+
+.nav-item:last-child {
+  width: 10px;
+}
+
+.nav-item.cart {
+  width: 50px;
+}
+
+.nav-item.active a {
+  display: block;
+  width: 50px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ffcc99;
+  color: #ffcc99;
+}
+
+.navbar-list a {
+  display: block;
+  width: 50px;
+  font-size: 13px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  -webkit-transition: 0.5s linear;
+  -o-transition: 0.5s linear;
+  transition: 0.5s linear;
+}
+
+.navbar-list a:hover {
+  color: #ffcc99;
+}
+
+.navbar-list img:hover {
+  color: #ffcc99;
+}
+
+.head-content {
+  margin-top: 140px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.head-content h1 {
+  margin: 0 auto;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 72px;
+  color: #fff;
+}
+
+.welcome {
+  display: block;
+  margin: 20px 0 50px 27px;
+  line-height: 145px;
+  font-size: 150px;
+  font-weight: 600;
+  letter-spacing: -6px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.welcome span {
+  position: relative;
+  display: block;
+}
+
+.welcome span::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 45%;
+  display: block;
+  width: 60px;
+  border-top: 2px solid #fff;
+}
+
+.header-btn {
+  display: block;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.header-btn a {
+  display: block;
+  width: 160px;
+  margin: 100px auto 0 auto;
+  padding: 8px;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #fff;
+  border: 3px solid #fff;
+  -webkit-transition: 0.5s linear;
+  -o-transition: 0.5s linear;
+  transition: 0.5s linear;
+
+}
+
+.header-btn a:hover {
+  font-size: 16px;
+  color: #000;
+  border: 4px solid #000;
+}
+
+.head-info {
+  position: absolute;
+  bottom: 1vh;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+
+.info-list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.info-list-item {
+  min-width: 160px;
+  margin-right: 30px;
+  padding-top: 16px;
+  font-weight: 700;
+  font-size: 25px;
+  text-align: left;
+  color: #fff;
+  border-top: 2px solid white;
+  list-style: none;
+}
+
+.info-list-item:last-child {
+  margin-right: 0;
+}
+
+.info-list-item a {
+  display: inline-block;
+  font-size: 17px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #fff;
+  text-decoration: none;
+  -webkit-transition: 0.3s linear;
+  -o-transition: 0.3s linear;
+  transition: 0.3s linear;
+}
+
+.info-list-item a:hover {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.main {
+  width: 100%;
+}
+
+.about {
+  width: 80%;
+  margin: auto;
+}
+
+.about h3 {
+  margin: 35px 0 10px 0;
+  font-size: 25px;
+  font-family: 'Kaushan Script', cursive;
+  text-align: center;
+}
+
+.about span {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 32px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+}
+
+.content-line {
+  display: block;
+  width: 60px;
+  margin: auto;
+  margin-bottom: 30px;
+  border-top: 2px solid red;
+}
+
+.content-text {
+  max-width: 915px;
+  margin: 45px auto 100px;
+  line-height: 1.6;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: -1px;
+}
+
+.story-list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto 70px;
+  overflow: hidden;
+}
+
+.story-image {
+  position: relative;
+  display: block;
+  margin: 0 30px 30px 0;
+}
+
+.story-image::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(#db7474), to(#e3cd7c));
+  background: -webkit-linear-gradient(top, #db7474, #e3cd7c);
+  background: -o-linear-gradient(top, #db7474, #e3cd7c);
+  background: linear-gradient(180deg, #db7474, #e3cd7c);
+  opacity: 0;
+  z-index: 1;
+  -webkit-transition: all 0.7s ease-in-out;
+  -o-transition: all 0.7s ease-in-out;
+  transition: all 0.7s ease-in-out;
+}
+
+.story-image:hover::after {
+  opacity: 0.75;
+}
+.comp {
+  position: relative;
+  width: 380px;
+  height: 250px;
+  background: url("http://u.cubeupload.com/lospotatos/Layer44112.png");
+  -webkit-background-size: 380px 380px;
+          background-size: 380px;
+}
+
+.phone {
+  width: 380px;
+  height: 250px;
+  background: url("http://u.cubeupload.com/lospotatos/Layer39min.png");
+  -webkit-background-size: 380px 380px;
+          background-size: 380px;
+}
+
+.cam {
+  width: 380px;
+  height: 250px;
+  background: url("http://u.cubeupload.com/lospotatos/Layer41min.png");
+  -webkit-background-size: 380px 380px;
+          background-size: 380px;
+}
+
+.statistics {
+  width: 100%;
+  background: #95e1d3;
+  overflow: hidden;
+  min-height: 270px;
+  margin-bottom: 75px;
+}
+
+.stat-list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  width: 80%;
+  margin: auto;
+  padding: 0;
+  list-style: none;
+  color: #fff;
+  overflow: hidden;
+
+}
+
+.stat-item:first-child {
+  border-left: 1px solid #b5eae0;
+}
+
+.stat-item {
+  float: left;
+  width: 20%;
+  padding-top: 65px;
+  font-size: 72px;
+  font-weight: 700;
+  text-align: center;
+  border-right: 1px solid #b5eae0;
+}
+
+.stat-descr {
+  margin-bottom: 50px;
+  font-size: 13px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.competence {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.competence h4 {
+  margin-bottom: 9px;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 23px;
+  text-align: center;
+}
+
+.competence span {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 35px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+
+}
+
+.form span {
+  margin-bottom: 0;
+}
+
+.al-cost-promo {
+  text-decoration: line-through;
+}
+
+.directions {
+  max-width: 1220px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.directions-list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  margin-bottom: 80px;
+  list-style: none;
+  overflow: hidden;
+}
+
+.directions-item.top {
+  margin-bottom: 28px;
+  padding-bottom: 45px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.directions-item {
+  float: left;
+  width: 33.33%;
+}
+
+.bg-ALARM {
+  margin-top: 20px;
+  float: left;
+  width: 50px;
+  height: 31px;
+  background: url("http://u.cubeupload.com/lospotatos/sprites.png") -59px -62px;
+}
+
+.bg-HOME {
+  margin-top: 20px;
+  float: left;
+  width: 50px;
+  height: 31px;
+  background: url("http://u.cubeupload.com/lospotatos/sprites.png") -107px -10px;
+}
+
+.bg-LINE_GRAPH {
+  margin-top: 20px;
+  float: left;
+  width: 50px;
+  height: 32px;
+  background: url("http://u.cubeupload.com/lospotatos/sprites.png") 1px -10px;
+}
+
+.bg-IMAGE {
+  margin-top: 20px;
+  float: left;
+  width: 50px;
+  height: 32px;
+  background: url("http://u.cubeupload.com/lospotatos/sprites.png") -53px -10px;
+}
+
+.bg-BOOK_2 {
+  margin-top: 20px;
+  float: left;
+  width: 50px;
+  height: 32px;
+  background: url("http://u.cubeupload.com/lospotatos/sprites.png") -5px -62px;
+}
+
+.bg-COMPUTER___OK {
+  margin-top: 20px;
+  float: left;
+  width: 50px;
+  height: 28px;
+  background: url("http://u.cubeupload.com/lospotatos/sprites.png") -104px -61px;
+}
+
+.directions-item > p {
+  display: block;
+  margin-left: 65px;
+  margin-bottom: 12px;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.direct-info {
+  font-size: 14px;
+  margin-left: 65px;
+  letter-spacing: -0.3px;
+  line-height: 1.8;
+}
+
+footer {
+  margin: auto;
+  background: #f8f8f8;
+  overflow: hidden;
+}
+
+.footer-space {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  margin-top: 40px;
+  overflow: hidden;
+}
+
+.logo.ftr {
+  margin-left: 0;
+  font-size: 42px;
+  color: #c9c9c9;
+}
+
+.ftr-left {
+  float: left;
+  width: 28%;
+  overflow: hidden;
+}
+
+.ftr-left p {
+  display: inline-block;
+  width: 100%;
+  margin-top: 25px;
+  line-height: 25px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 200;
+  color: #c9c9c9;
+}
+
+.flwrs {
+  display: inline-block;
+  width: 100%;
+  margin-top: 30px;
+  padding-bottom: 15px;
+  color: #000;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.flwrs-num {
+  font-weight: 700;
+  font-family: 'Montserrat';
+}
+
+.subscr {
+  display: inline-block;
+  float: left;
+  width: 50%;
+  font-family: 'Montserrat';
+}
+
+.social-list {
+  height: 34px;
+  margin-top: 20px;
+  padding: 0;
+  list-style: none;
+}
+
+.social-item:first-child {
+  margin-right: 25px;
+  font-style: italic;
+}
+
+.social-item:first-child:hover {
+  -webkit-transform: none;
+      -ms-transform: none;
+          transform: none;
+}
+
+.social-item {
+  float: left;
+  margin-right: 15px;
+  font-size: 12px;
+  color: #c9c9c9;
+  -webkit-transition: 1s ease;
+  -o-transition: 1s ease;
+  transition: 1s ease;
+}
+
+.social-item:hover {
+  -webkit-transform: rotateZ(-360deg);
+  -ms-transform: rotateZ(-360deg);
+  transform: rotateZ(-360deg);
+  -webkit-transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.bg-dr {
+  width: 16px;
+  height: 16px;
+  background: url("http://u.cubeupload.com/lospotatos/socials.png") -10px -10px;
+}
+
+.bg-fb {
+  width: 8px;
+  height: 16px;
+  background: url("http://u.cubeupload.com/lospotatos/socials.png") -115px -46px;
+}
+
+.bg-gp {
+  width: 16px;
+  height: 14px;
+  background: url("http://u.cubeupload.com/lospotatos/socials.png") -10px -46px;
+}
+
+.bg-inst {
+  width: 16px;
+  height: 16px;
+  background: url("http://u.cubeupload.com/lospotatos/socials.png") -46px -10px;
+}
+
+.bg-pin {
+  width: 13px;
+  height: 16px;
+  background: url("http://u.cubeupload.com/lospotatos/socials.png") -82px -10px;
+}
+
+.bg-tmblr {
+  width: 10px;
+  height: 16px;
+  background: url("http://u.cubeupload.com/lospotatos/socials.png") -115px -10px;
+}
+
+.bg-tw {
+  width: 16px;
+  height: 14px;
+  background: url("http://u.cubeupload.com/lospotatos/socials.png") -46px -46px;
+}
+
+.bg-yt {
+  width: 16px;
+  height: 12px;
+  background: url("http://u.cubeupload.com/lospotatos/socials.png") -10px -80px;
+}
+
+input {
+  width: 55%;
+  padding: 12px 15px 12px 12px;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: -1px;
+  background: #fff;
+  border: 2px solid #f5f5f5;
+}
+
+input::-webkit-input-placeholder {
+  color: #c9c9c9;
+  font-size: 15px;
+}
+
+.btn-form {
+  width: 150px;
+  margin-left: -10px;
+  padding: 13px 15px 12px 20px;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #fff;
+  background-color: #95e1d3;
+  border: none;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.btn-form:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+.ftr-middle {
+  float: right;
+  width: 33%;
+  margin-top: 20px;
+  padding-left: 80px;
+  overflow: hidden;
+}
+
+.ftr-middle h5 {
+  margin-bottom: 35px;
+  margin-top: 15px;
+  text-transform: uppercase;
+}
+
+.blog-list {
+  padding: 0;
+  list-style: none;
+}
+
+.blog-item {
+  display: inline-block;
+  margin-bottom: 28px;
+}
+
+.blog-item img {
+  width: 120px;
+  float: left;
+}
+
+.blog-tittle {
+
+  display: inline-block;
+  width: 45%;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-family: 'Montserrat';
+  font-size: 11px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-decoration: none;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.blog-tittle:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.date {
+  display: inline-block;
+  width: 50%;
+  margin-top: 10px;
+  margin-left: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  font-style: italic;
+  text-transform: none;
+  color: #c3c3c3;
+}
+
+.ftr-right {
+  float: left;
+  position: relative;
+  right: 5px;
+  width: 25%;
+  margin-top: 20px;
+  margin-bottom: 60px;
+  overflow: hidden;
+}
+
+.ftr-right h5 {
+  margin-top: 16px;
+  text-transform: uppercase;
+}
+
+.inst-list {
+  display: block;
+  width: 335px;
+  margin-top: 35px;
+  margin-bottom: 13px;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+}
+
+.inst-item {
+  display: block;
+  float: left;
+  width: 26%;
+}
+
+.inst-photo {
+  width: 99%;
+  float: left;
+}
+
+.inst-photo a {
+  width: 99%;
+}
+
+.inst-item img {
+  width: 100%;
+}
+
+.inst-link {
+  display: block;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-style: italic;
+  text-decoration: none;
+  color: #a1a1a1;
+
+}
+
+.inst-link:hover {
+  font-style: normal;
+}
+
+.copyright {
+  width: 100%;
+  margin: auto;
+  border-top: 1px solid #e5e5e5;
+  overflow: hidden;
+}
+
+.copyright p {
+  margin-top: 20px;
+  margin-bottom: 25px;
+  font-family: 'Montserrat';
+  font-size: 14px;
+  text-align: center;
+}

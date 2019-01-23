@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="media.css">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:400,700|Roboto" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <section class="nav">
+            <div class="logo"><a href="#">MoGo</a></div>
+            <div class="navbar">
+                <ul class="navbar-list">
+                    <li class="nav-item active">
+                        <a href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">Contact</a>
+                    </li>
+                    <li class="nav-item cart">
+                        <a href="#">
+                            <img src="http://u.cubeupload.com/lospotatos/cart.png" alt="">
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">
+                            <img src="http://u.cubeupload.com/lospotatos/glass.png" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="head-content">
+            <h1>Creative Template</h1>
+          <div class="welcome"><span>Welcome <br> to MoGo</span></div>  
+            <div class="header-btn">
+                <a href="#">Learn More</a>
+            </div>
+            <div class="head-info">
+                <ol class="info-list">
+                    <li class="info-list-item">01
+                        <a href="#">Intro</a>
+                    </li>
+                    <li class="info-list-item">02
+                        <a href="#">Work</a>
+                    </li>
+                    <li class="info-list-item">03
+                        <a href="#">About</a>
+                    </li>
+                    <li class="info-list-item">04
+                        <a href="#">Contacts</a>
+                    </li>
+                </ol>
+            </div>
+        </section>
+
+    </header>
+    <div class="main">
+        <section class="about">
+            <h3>What we do</h3>
+            <span>Story about us</span>
+            <div class="content-line"></div>
+            <div class="content-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+            <ul class="story-list">
+                <li class="story-image">
+                    <div class="comp"></div>
+                    <a href="#"></a>
+                </li>
+                <li class="story-image">
+                    <div class="phone"></div>
+                    <a href="#"></a>
+                </li>
+                <li class="story-image">
+                    <div class="cam"></div>
+                    <a href="#"></a>
+                </li>
+            </ul>
+        </section>
+        <section class="statistics">
+            <ul class="stat-list">
+                <li class="stat-item">42
+                    <p class="stat-descr">web design projects</p>
+                </li>
+                <li class="stat-item">123
+                    <p class="stat-descr">happy client</p>
+                </li>
+                <li class="stat-item">15
+                    <p class="stat-descr">award winner</p>
+                </li>
+                <li class="stat-item">99
+                    <p class="stat-descr">cup of coffee</p>
+                </li>
+                <li class="stat-item">24
+                    <p class="stat-descr">members</p>
+                </li>
+            </ul>
+        </section>
+        <section class="competence">
+            <h4>We work with</h4>
+            <span>Amazing Services</span>
+            <div class="content-line"></div>
+
+            <div class="directions">
+                <ul class="directions-list">
+                    <li class="directions-item top">
+                        <div class="bg-ALARM"></div>
+                        <p>Photography</p>
+                        <div class="direct-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</div>
+                    </li>
+                    <li class="directions-item top">
+                        <div class="bg-IMAGE"></div>
+                        <p>Web design</p>
+                        <div class="direct-info">Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</div>
+                    </li>
+                    <li class="directions-item top">
+                        <div class="bg-COMPUTER___OK"></div>
+                        <p>Creativity</p>
+                        <div class="direct-info">Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</div>
+                    </li>
+                    <li class="directions-item">
+                        <div class="bg-BOOK_2"></div>
+                        <p>Seo</p>
+                        <div class="direct-info">Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</div>
+                    </li>
+                    <li class="directions-item">
+                        <div class="bg-HOME"></div>
+                        <p>Css/Html</p>
+                        <div class="direct-info">Lorem dolor sit amet, consectetur adipiscing elit, sed do tempor.</div>
+                    </li>
+                    <li class="directions-item">
+                        <div class="bg-LINE_GRAPH"></div>
+                        <p>Digital</p>
+                        <div class="direct-info">Sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</div>
+                    </li>
+                </ul>
+            </div>
+
+            <div id="form-main">
+                <div id="form-div">
+                    <form class="form form--order" method="post">
+                        <label class="label" style="color:black">Имя</label>
+                        <input class="feedback-input" pattern="^[a-zA-ZА-Яа-яЁё\s-]+$" minlength="3" maxlength="20" name="name" value="" type="text" required title="Имя должно содержать только латинские и русские буквы. Имя должно содержать от 3 до 20 символов">
+                        <label class="label" style="color:black">Номер телeфона</label>
+                        <input class="feedback-input"  pattern="^[0-9]+$" minlength="5" maxlength="20" name="phone" value="" type="text" required title="Номер телeфона должен содержать только числа">
+                        <div style="margin: 0px auto;width:100%" class="submit">
+                            <input value="Заказать" id="button-blue" type="submit">
+                            <div class="ease"></div>
+                        </div>
+                        <div class="row price">
+                            <div class="left">
+                                Старая цена:
+                            </div>
+                            <div class="right">
+                                <span class="al-cost-promo">200$</span>
+                            </div>
+                        </div>
+                        <div class="line"></div>
+                        <div class="row big-text">
+                            <div class="left">
+                                Цена:
+                            </div>
+                            <div class="right">
+                                <span class="al-cost">100$</span>
+                            </div>
+                        </div>
+                    </form>
+            
+                </div>
+              
+            </div>
+
+
+        </section>
+    </div>
+    <footer>
+        <div class="footer-space">
+            <section class="ftr-left">
+                <span class="logo ftr">MoGo</span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                    commodo consequat.
+                </p>
+                <div class="socials">
+                    <span class="flwrs">
+                        <span class="flwrs-num">15k</span> followers</span>
+                    <!-- <span class="subscr"><em>Follow Us:</em></span> -->
+                    <ul class="social-list">
+                        <li class="social-item">
+                            Follow Us:
+                        </li>
+                        <li class="social-item">
+                            <div class="bg-fb">
+                                <a href=""></a>
+                            </div>
+                        </li>
+                        <li class="social-item">
+                            <div class="bg-tw">
+                                <a href=""></a>
+                            </div>
+                        </li>
+                        <li class="social-item">
+                            <div class="bg-inst">
+                                <a href=""></a>
+                            </div>
+                        </li>
+                        <li class="social-item">
+                            <div class="bg-pin">
+                                <a href=""></a>
+                            </div>
+                        </li>
+                        <li class="social-item">
+                            <div class="bg-gp">
+                                <a href=""></a>
+                            </div>
+                        </li>
+                        <li class="social-item">
+                            <div class="bg-yt">
+                                <a href=""></a>
+                            </div>
+                        </li>
+                        <li class="social-item">
+                            <div class="bg-dr">
+                                <a href=""></a>
+                            </div>
+                        </li>
+                        <li class="social-item">
+                            <div class="bg-tmblr">
+                                <a href=""></a>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="form">
+                        <form action="#" method="post">
+                            <input type="text" id="subscr" name="name" placeholder="Your Email...">
+                            <button type="submit" class="btn-form">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            <section class="ftr-middle">
+                <h5>Blogs</h5>
+                <ul class="blog-list">
+                    <li class="blog-item">
+                        <a href="#">
+                            <img src="http://u.cubeupload.com/lospotatos/photos7884rHDsW8yqbs.jpg" alt="">
+                        </a>
+                        <a class="blog-tittle" href="#">Lorem ipsum dolor sit amet, consectetur adipiscing</a>
+                        <span class="date">Jan 9, 2016</span>
+                    </li>
+                    <li class="blog-item">
+                        <a href="#">
+                            <img src="http://u.cubeupload.com/lospotatos/photos7884lejLFH9MN8.jpg" alt="">
+                        </a>
+                        <a class="blog-tittle" href="#">Consectetur adipiscing elit, sed do eiusmod tempor</a>
+                        <span class="date">Jan 9, 2016</span>
+                    </li>
+                    <li class="blog-item">
+                        <a href="#">
+                            <img src="http://u.cubeupload.com/lospotatos/photos7884P2smgicsZF.jpg" alt="">
+                        </a>
+                        <a class="blog-tittle" href="#">sed do eiusmod tempor incididunt ut labore</a>
+                        <span class="date">Jan 9, 2016</span>
+                    </li>
+                </ul>
+            </section>
+           
+            <section class="copyright">
+                <p>© 2018</p>
+            </section>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="form.js"></script>
+</body>
+
+</html>
